@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A010E15A247767DE008609DB /* MyPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A010E159247767DE008609DB /* MyPerfilViewController.swift */; };
+		A048238C2478602B00757D0E /* ClientCouponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A048238B2478602B00757D0E /* ClientCouponTableViewCell.swift */; };
 		A04D4A2C247094E0001EF27C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D4A2B247094E0001EF27C /* AppDelegate.swift */; };
 		A04D4A2E247094E0001EF27C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D4A2D247094E0001EF27C /* SceneDelegate.swift */; };
-		A04D4A30247094E0001EF27C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D4A2F247094E0001EF27C /* ViewController.swift */; };
 		A04D4A33247094E0001EF27C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04D4A31247094E0001EF27C /* Main.storyboard */; };
 		A04D4A35247094E4001EF27C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04D4A34247094E4001EF27C /* Assets.xcassets */; };
 		A04D4A38247094E4001EF27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04D4A36247094E4001EF27C /* LaunchScreen.storyboard */; };
+		A04D4A412470A5CB001EF27C /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D4A402470A5CB001EF27C /* CouponViewController.swift */; };
+		A04D4A462470B4D9001EF27C /* CouponRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D4A452470B4D9001EF27C /* CouponRowTableViewCell.swift */; };
+		A0513FB22474C09000B656DF /* ClientCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0513FB12474C09000B656DF /* ClientCouponViewController.swift */; };
+		A0696CE12471828300A2A157 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0696CE02471828300A2A157 /* GoogleService-Info.plist */; };
+		A0696CE42471925900A2A157 /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0696CE32471925900A2A157 /* Coupon.swift */; };
+		A0696CE82472054600A2A157 /* CouponDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0696CE72472054600A2A157 /* CouponDetailViewController.swift */; };
+		A08E88F5247B46E8009E48A9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E88F4247B46E8009E48A9 /* User.swift */; };
+		A09524AA2479D3F7009D5C5C /* CouponAcceptedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09524A92479D3F7009D5C5C /* CouponAcceptedViewController.swift */; };
+		A09531DB248307610035FDE7 /* CouponStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09531DA248307610035FDE7 /* CouponStatus.swift */; };
+		A0A2D06524786D9B00878BB7 /* ClientCoupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2D06424786D9B00878BB7 /* ClientCoupon.swift */; };
+		A0C3FC5B247DD48000376E41 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3FC5A247DD48000376E41 /* RegisterViewController.swift */; };
+		A0E3DDC6247331D800D06246 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E3DDC5247331D800D06246 /* Extension.swift */; };
+		A0E3DDC82473438600D06246 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E3DDC72473438600D06246 /* LoginViewController.swift */; };
+		A0E3DDCA247361EC00D06246 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E3DDC9247361EC00D06246 /* Constants.swift */; };
+		A0E3DDCC2473688B00D06246 /* CouponTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E3DDCB2473688B00D06246 /* CouponTabBarController.swift */; };
+		A0F2D60D2485A6390034AE44 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F2D60C2485A6390034AE44 /* ForgotPasswordViewController.swift */; };
+		E867643716EFE6ED456C58E1 /* Pods_coupons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C25290FF9D5A0650403E4A /* Pods_coupons.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A04D4A28247094E0001EF27C /* coupons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coupons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178CED03AA6ACA182888DA17 /* Pods-coupons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coupons.release.xcconfig"; path = "Target Support Files/Pods-coupons/Pods-coupons.release.xcconfig"; sourceTree = "<group>"; };
+		A010E159247767DE008609DB /* MyPerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPerfilViewController.swift; sourceTree = "<group>"; };
+		A048238B2478602B00757D0E /* ClientCouponTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCouponTableViewCell.swift; sourceTree = "<group>"; };
+		A04D4A28247094E0001EF27C /* Station Burger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Station Burger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04D4A2B247094E0001EF27C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A04D4A2D247094E0001EF27C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A04D4A2F247094E0001EF27C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A04D4A32247094E0001EF27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A04D4A34247094E4001EF27C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A04D4A37247094E4001EF27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A04D4A39247094E4001EF27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04D4A402470A5CB001EF27C /* CouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
+		A04D4A452470B4D9001EF27C /* CouponRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponRowTableViewCell.swift; sourceTree = "<group>"; };
+		A0513FB12474C09000B656DF /* ClientCouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCouponViewController.swift; sourceTree = "<group>"; };
+		A0696CE02471828300A2A157 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0696CE32471925900A2A157 /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		A0696CE72472054600A2A157 /* CouponDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponDetailViewController.swift; sourceTree = "<group>"; };
+		A08E88F4247B46E8009E48A9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A09524A92479D3F7009D5C5C /* CouponAcceptedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponAcceptedViewController.swift; sourceTree = "<group>"; };
+		A09531DA248307610035FDE7 /* CouponStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponStatus.swift; sourceTree = "<group>"; };
+		A0A2D06424786D9B00878BB7 /* ClientCoupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCoupon.swift; sourceTree = "<group>"; };
+		A0C3FC5A247DD48000376E41 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A0E3DDC5247331D800D06246 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A0E3DDC72473438600D06246 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A0E3DDC9247361EC00D06246 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A0E3DDCB2473688B00D06246 /* CouponTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponTabBarController.swift; sourceTree = "<group>"; };
+		A0F2D60C2485A6390034AE44 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		B2C25290FF9D5A0650403E4A /* Pods_coupons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coupons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E956668C5BBA1CBD869F6652 /* Pods-coupons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coupons.debug.xcconfig"; path = "Target Support Files/Pods-coupons/Pods-coupons.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +69,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E867643716EFE6ED456C58E1 /* Pods_coupons.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25E4387786A295C075423C68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2C25290FF9D5A0650403E4A /* Pods_coupons.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A04D4A1F247094DF001EF27C = {
 			isa = PBXGroup;
 			children = (
 				A04D4A2A247094E0001EF27C /* coupons */,
 				A04D4A29247094E0001EF27C /* Products */,
+				F7C177BF64E7335E6E69B862 /* Pods */,
+				25E4387786A295C075423C68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A04D4A29247094E0001EF27C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A04D4A28247094E0001EF27C /* coupons.app */,
+				A04D4A28247094E0001EF27C /* Station Burger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +105,73 @@
 		A04D4A2A247094E0001EF27C /* coupons */ = {
 			isa = PBXGroup;
 			children = (
+				A09531D9248307060035FDE7 /* Enums */,
+				A0696CE224718C9400A2A157 /* Models */,
+				A04D4A3F24709E27001EF27C /* Controllers */,
+				A0E3DDC42473314700D06246 /* Helpers */,
 				A04D4A2B247094E0001EF27C /* AppDelegate.swift */,
 				A04D4A2D247094E0001EF27C /* SceneDelegate.swift */,
-				A04D4A2F247094E0001EF27C /* ViewController.swift */,
 				A04D4A31247094E0001EF27C /* Main.storyboard */,
 				A04D4A34247094E4001EF27C /* Assets.xcassets */,
 				A04D4A36247094E4001EF27C /* LaunchScreen.storyboard */,
 				A04D4A39247094E4001EF27C /* Info.plist */,
+				A0696CE02471828300A2A157 /* GoogleService-Info.plist */,
 			);
 			path = coupons;
+			sourceTree = "<group>";
+		};
+		A04D4A3F24709E27001EF27C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A04D4A402470A5CB001EF27C /* CouponViewController.swift */,
+				A04D4A452470B4D9001EF27C /* CouponRowTableViewCell.swift */,
+				A0696CE72472054600A2A157 /* CouponDetailViewController.swift */,
+				A0E3DDC72473438600D06246 /* LoginViewController.swift */,
+				A0E3DDCB2473688B00D06246 /* CouponTabBarController.swift */,
+				A0513FB12474C09000B656DF /* ClientCouponViewController.swift */,
+				A048238B2478602B00757D0E /* ClientCouponTableViewCell.swift */,
+				A010E159247767DE008609DB /* MyPerfilViewController.swift */,
+				A09524A92479D3F7009D5C5C /* CouponAcceptedViewController.swift */,
+				A0C3FC5A247DD48000376E41 /* RegisterViewController.swift */,
+				A0F2D60C2485A6390034AE44 /* ForgotPasswordViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A0696CE224718C9400A2A157 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0696CE32471925900A2A157 /* Coupon.swift */,
+				A0A2D06424786D9B00878BB7 /* ClientCoupon.swift */,
+				A08E88F4247B46E8009E48A9 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A09531D9248307060035FDE7 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A09531DA248307610035FDE7 /* CouponStatus.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		A0E3DDC42473314700D06246 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A0E3DDC5247331D800D06246 /* Extension.swift */,
+				A0E3DDC9247361EC00D06246 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F7C177BF64E7335E6E69B862 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E956668C5BBA1CBD869F6652 /* Pods-coupons.debug.xcconfig */,
+				178CED03AA6ACA182888DA17 /* Pods-coupons.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A04D4A3C247094E4001EF27C /* Build configuration list for PBXNativeTarget "coupons" */;
 			buildPhases = (
+				1C5A8D11CAE5345457DBE1A1 /* [CP] Check Pods Manifest.lock */,
 				A04D4A24247094E0001EF27C /* Sources */,
 				A04D4A25247094E0001EF27C /* Frameworks */,
 				A04D4A26247094E0001EF27C /* Resources */,
+				D7F09981AF69A0A875485731 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +193,7 @@
 			);
 			name = coupons;
 			productName = coupons;
-			productReference = A04D4A28247094E0001EF27C /* coupons.app */;
+			productReference = A04D4A28247094E0001EF27C /* Station Burger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A04D4A38247094E4001EF27C /* LaunchScreen.storyboard in Resources */,
+				A0696CE12471828300A2A157 /* GoogleService-Info.plist in Resources */,
 				A04D4A35247094E4001EF27C /* Assets.xcassets in Resources */,
 				A04D4A33247094E0001EF27C /* Main.storyboard in Resources */,
 			);
@@ -133,14 +243,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C5A8D11CAE5345457DBE1A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coupons-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F09981AF69A0A875485731 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coupons/Pods-coupons-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coupons/Pods-coupons-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coupons/Pods-coupons-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A04D4A24247094E0001EF27C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04D4A30247094E0001EF27C /* ViewController.swift in Sources */,
+				A0E3DDC82473438600D06246 /* LoginViewController.swift in Sources */,
+				A04D4A412470A5CB001EF27C /* CouponViewController.swift in Sources */,
+				A048238C2478602B00757D0E /* ClientCouponTableViewCell.swift in Sources */,
+				A010E15A247767DE008609DB /* MyPerfilViewController.swift in Sources */,
+				A0513FB22474C09000B656DF /* ClientCouponViewController.swift in Sources */,
+				A04D4A462470B4D9001EF27C /* CouponRowTableViewCell.swift in Sources */,
+				A0A2D06524786D9B00878BB7 /* ClientCoupon.swift in Sources */,
+				A09531DB248307610035FDE7 /* CouponStatus.swift in Sources */,
+				A08E88F5247B46E8009E48A9 /* User.swift in Sources */,
+				A0696CE82472054600A2A157 /* CouponDetailViewController.swift in Sources */,
+				A0C3FC5B247DD48000376E41 /* RegisterViewController.swift in Sources */,
+				A0E3DDCC2473688B00D06246 /* CouponTabBarController.swift in Sources */,
+				A0E3DDCA247361EC00D06246 /* Constants.swift in Sources */,
+				A0696CE42471925900A2A157 /* Coupon.swift in Sources */,
 				A04D4A2C247094E0001EF27C /* AppDelegate.swift in Sources */,
+				A0F2D60D2485A6390034AE44 /* ForgotPasswordViewController.swift in Sources */,
+				A09524AA2479D3F7009D5C5C /* CouponAcceptedViewController.swift in Sources */,
 				A04D4A2E247094E0001EF27C /* SceneDelegate.swift in Sources */,
+				A0E3DDC6247331D800D06246 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +450,10 @@
 		};
 		A04D4A3D247094E4001EF27C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E956668C5BBA1CBD869F6652 /* Pods-coupons.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X52D35V645;
 				INFOPLIST_FILE = coupons/Info.plist;
@@ -292,16 +462,19 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = triple.solution.coupons;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Station Burger";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A04D4A3E247094E4001EF27C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178CED03AA6ACA182888DA17 /* Pods-coupons.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X52D35V645;
 				INFOPLIST_FILE = coupons/Info.plist;
@@ -310,9 +483,10 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = triple.solution.coupons;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Station Burger";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
